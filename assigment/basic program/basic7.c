@@ -2,14 +2,11 @@
 #include<conio.h>
 void main()
 {
-    float a,b;
+    float C,F;
 
-    printf("enter tem. in celcious :");
-    scanf("%f",&a);
-
-     b=a*9/5+32;
-     printf("tem in fahrenheit :%f",b);
-
-
+    printf(" Enter tem. in Celsius :");
+    scanf("%f",&C);
+    F=((9/5.0) * C) + 32;
+    printf(" Tem. in Fahrenheit :%.2f",F);
 }
 
